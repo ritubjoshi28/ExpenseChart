@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="upper-container">
+        <div class="upper-text">
+          <p class="balance">My balance</p>
+
+          <p class="amount">$921.48</p>
+        </div>
+        <div class="logo">
+          <svg
+            width="50"
+            height="48"
+            viewBox="0 0 72 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#382314" cx="48" cy="24" r="24" />
+              <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="box">
+          <h1 class="spending-heading">Spending - Last 7 days</h1>
+          <div class="bar">
+            <div class="mon">
+              <div class="rectangle-mon"></div>
+              <p class="days">mon</p>
+            </div>
+            <div class="tue">
+              <div class="rectangle-tue"></div>
+              <p class="days">tue</p>
+            </div>
+            <div class="wed">
+              <div class="rectangle-wed"></div>
+              <p class="days">wed</p>
+            </div>
+            <div class="thur">
+              <div class="rectangle-thu"></div>
+              <p class="days">thu</p>
+            </div>
+            <div class="fri">
+              <div class="rectangle-fri"></div>
+              <p class="days">fri</p>
+            </div>
+            <div class="sat">
+              <div class="rectangle-sat"></div>
+              <p class="days">sat</p>
+            </div>
+            <div class="sun">
+              <div class="rectangle-sun"></div>
+              <p class="days">sun</p>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="sub-container">
+          <div>
+            <p class="total-txt">Total this month</p>
+            <p class="total-number">$478.33</p>
+          </div>
+
+          <div class="increase">
+            <p class="total-interest">+2.4%</p>
+            <p class="increase-txt">from last month</p>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/ritubjoshi28" target="_blank">Ritu Joshi</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
